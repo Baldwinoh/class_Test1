@@ -1,0 +1,36 @@
+package controller;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.ManagedProperty;
+import javax.faces.bean.SessionScoped;
+
+import model.Customer;
+
+@ManagedBean(name = "customercontroller")
+@SessionScoped
+
+public class CustomerController {
+	@ManagedProperty(value="#{customer}")
+	private Customer customer;
+
+	
+	public void addNewCustomers()
+	{
+		
+	}
+
+
+	public Customer getCustomer() {
+		
+		return customer;
+	}
+
+
+	public void setCustomer(Customer customer) {
+		
+		this.customer = customer;
+	}
+	
+	
+	
+}

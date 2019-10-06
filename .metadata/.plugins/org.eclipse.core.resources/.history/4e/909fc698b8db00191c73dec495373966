@@ -1,0 +1,20 @@
+package service;
+
+import javax.ejb.LocalBean;
+import javax.ejb.Stateless;
+
+/**
+ * Session Bean implementation class CustomerEjb
+ */
+@Stateless
+@LocalBean
+public class CustomerEjb {
+
+    /**
+     * Default constructor. 
+     */
+    public CustomerEjb() {
+        // TODO Auto-generated constructor stub
+    }
+
+}
